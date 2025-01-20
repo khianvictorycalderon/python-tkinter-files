@@ -2,7 +2,7 @@ from tkinter import *
 
 win = Tk()
 
-photo = PhotoImage(file="Tkinter\\python.png")
+photo = PhotoImage(file="python.png")
 
 Label(
     win,
