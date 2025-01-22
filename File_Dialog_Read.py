@@ -5,7 +5,7 @@ window = Tk()
 
 def openFile():
     filepath = filedialog.askopenfilename(
-        initialdir = "\\",
+        initialdir = ".\\",
         title = "Open File Title",
         filetypes = (("text files", "*.txt"), ("all files", "*.*"))
     )
